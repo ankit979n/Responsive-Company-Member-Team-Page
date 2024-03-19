@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+
+
+.top-right {
+  top: 0;
+  right: 0;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+.company-name {
+  background-color: violet;
+  color: white;
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 24px;
+}
+
+.welcome-message {
+  margin-top: 20px;
+}
+
+.main {
+  padding: 20px;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.management-heading {
+  background-color: violet;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0 auto;
+  display: table;
+}
+
+.members-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow items to wrap onto the next line */
+}
+
+.member {
+  text-align: center;
+  margin: 0 10px; /* Adjust spacing between members */
+  flex: 0 0 auto; /* Prevent flex items from growing and shrinking */
+  width: 200px; /* Set a fixed width for each member */
+  display: inline-block; /* Display members inline */
+  vertical-align: top; /* Align items to the top */
+}
+
+.member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.member-info h4,
+.member-info p {
+  margin: 0;
+  color:violet;
+}
+
+.meet-our-team {
+  margin-bottom: 30px; /* Add margin to create space between sections */
+}
